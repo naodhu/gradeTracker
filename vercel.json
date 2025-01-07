@@ -8,6 +8,14 @@
   ],
   "routes": [
     {
+      "src": "/auth",
+      "dest": "/auth.html"
+    },
+    {
+      "src": "/welcome",
+      "dest": "/welcome.html"
+    },
+    {
       "src": "/(.*)",
       "dest": "/index.html"
     }
